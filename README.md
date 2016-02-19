@@ -1,6 +1,3 @@
-# Repository Name:  jpmorgan-interview
-Solution to the JP Morgan interview problem
-
 # Super Simple Stock Market
 
 This repo contains my implementation of the super simple stock exchange exercise. It is written in java using eclipse as the IDE and maven as the build and dependency management.
