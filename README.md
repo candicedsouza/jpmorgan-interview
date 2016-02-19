@@ -33,57 +33,57 @@ This will build as well as run the unit tests
 3. From the same directory: java -cp target\classes\ com.candicedsouza.stockexchange.demo.MainSystem
 
 ###This will output the following demo:
-Initializing stock exchnage with 5 stocks
-Simulating stock trading on the exchange
-Analysis for stock : POP at price : 35.0
-Dividend Yield : 0.22857142857142856
-PE Ratio : 4.375
-List of trades in last 24 hours
-Trade [timestamp=Fri Feb 19 19:56:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 19:57:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 19:58:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:00:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:01:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:02:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:03:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:04:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:07:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 09:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 18:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 17:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Calculated Volume Weighted Stock Price based on trades in past 5 minutes :40.0
-Analysis done on one COMMON stock, POP @ price 28.56
-Analysis for stock : POP at price : 28.56
-Dividend Yield : 0.2801120448179272
-PE Ratio : 3.57
-List of trades in last 24 hours
-Trade [timestamp=Fri Feb 19 19:56:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 19:57:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 19:58:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:00:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:01:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:02:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:03:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:04:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:07:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 09:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 18:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 17:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Calculated Volume Weighted Stock Price based on trades in past 5 minutes :40.0
-Analysis done on one PREFERRED stock, GIN @ price 8.571
-Analysis for stock : GIN at price : 8.571
-Dividend Yield : 23.33450005833625
-PE Ratio : 1.071375
-List of trades in last 24 hours
-Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
-Calculated Volume Weighted Stock Price based on trades in past 5 minutes :45.86
-Displaying all trades done in the last 5 minutes
-All trades in last : 5 MINUTES
-Trade [timestamp=Fri Feb 19 20:07:26 GMT 2016, quantity=80, type=BUY, price=40.0]
-Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
-Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=23.89]
-Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=50, type=SELL, price=10.78]
-Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
-Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=280, type=SELL, price=65.86]
-Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
-Computing index of trade market : 40.03318551295543
+	Initializing stock exchnage with 5 stocks
+	Simulating stock trading on the exchange
+	Analysis for stock : POP at price : 35.0
+	Dividend Yield : 0.22857142857142856
+	PE Ratio : 4.375
+	List of trades in last 24 hours
+	Trade [timestamp=Fri Feb 19 19:56:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 19:57:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 19:58:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:00:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:01:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:02:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:03:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:04:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:07:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 09:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 18:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 17:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Calculated Volume Weighted Stock Price based on trades in past 5 minutes :40.0
+	Analysis done on one COMMON stock, POP @ price 28.56
+	Analysis for stock : POP at price : 28.56
+	Dividend Yield : 0.2801120448179272
+	PE Ratio : 3.57
+	List of trades in last 24 hours
+	Trade [timestamp=Fri Feb 19 19:56:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 19:57:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 19:58:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:00:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:01:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:02:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:03:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:04:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:07:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 09:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 18:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 17:10:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Calculated Volume Weighted Stock Price based on trades in past 5 minutes :40.0
+	Analysis done on one PREFERRED stock, GIN @ price 8.571
+	Analysis for stock : GIN at price : 8.571
+	Dividend Yield : 23.33450005833625
+	PE Ratio : 1.071375
+	List of trades in last 24 hours
+	Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
+	Calculated Volume Weighted Stock Price based on trades in past 5 minutes :45.86
+	Displaying all trades done in the last 5 minutes
+	All trades in last : 5 MINUTES
+	Trade [timestamp=Fri Feb 19 20:07:26 GMT 2016, quantity=80, type=BUY, price=40.0]
+	Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
+	Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=23.89]
+	Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=50, type=SELL, price=10.78]
+	Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
+	Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=280, type=SELL, price=65.86]
+	Trade [timestamp=Fri Feb 19 20:10:26 GMT 2016, quantity=300, type=BUY, price=45.86]
+	Computing index of trade market : 40.03318551295543
